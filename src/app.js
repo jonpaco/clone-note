@@ -11,7 +11,7 @@ var app = express();
 //start static server
 app.use('/', express.static('public'));
 
-//add json body parser
+//add json body parser in order to parse posts
 app.use(parser.json());
 
 //attatch router to server
